@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-basic-v1';
-  date: string = new Date().toUTCString();
+  today: any = new Date();
 }

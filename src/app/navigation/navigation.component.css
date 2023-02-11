@@ -1,0 +1,23 @@
+.nav-bar {
+  display: flex;
+  padding-bottom: 30px;
+  background-color: rgb(241, 206, 189)
+}
+
+.site-name {
+  padding: 5px 10px;
+  color: rgb(210, 30, 30);
+}
+
+.site-menu {
+  padding: 10px;
+  margin-left: 600px;
+}
+
+.site-item {
+  initial-letter: none;
+  color: darkmagenta;
+  padding-left: 15px;
+  padding-top: 20px;
+  text-decoration: none;
+}

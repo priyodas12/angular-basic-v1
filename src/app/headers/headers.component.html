@@ -1,8 +1,12 @@
 <div class="headers">
   <div class="site-image">
-    <img class="shopping-img" src="/assets/shopping.png">
+    <img class="shopping-img" [src]=imgSource>
   </div>
   <div class="slogan">
-    <h3>Shpping Window for a common citizen</h3>
+    <h3>{{slogan}}</h3>
+    <br />
+    <h4>Today's Offer Price:</h4>
+    <br />
+    <h4>{{getPrice()}}</h4>
   </div>
 </div>

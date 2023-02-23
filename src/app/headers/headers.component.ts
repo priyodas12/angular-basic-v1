@@ -14,10 +14,8 @@ export class HeadersComponent implements OnInit {
   imgSource: string = '/assets/shopping.png';
 
   ngOnInit() {
-    // this.getPrice();
-    // this.randomPrice = setInterval(() => {
-    //   this.getPrice();
-    // }, 1000);
+    //this.getPrice();
+    this.randomPrice = this.getPrice();
   }
 
   getPrice() {

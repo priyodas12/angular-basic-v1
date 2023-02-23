@@ -1,0 +1,13 @@
+.search {
+  text-align: center;
+  background-color: rgb(247, 203, 181)
+}
+
+.input-bar {
+  height: 30px;
+  width: 300px;
+}
+
+.search-bar {
+  height: 30px;
+}

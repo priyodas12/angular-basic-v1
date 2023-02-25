@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./search.component.css'],
 })
 export class SearchComponent {
-  searchString: string = '';
+  searchString: string = 'ipgone';
 
   submitSearchHandler(eventData: Event) {
     console.log(eventData);

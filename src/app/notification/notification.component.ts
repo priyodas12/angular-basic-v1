@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class NotificationComponent {
   downTimeStart: Date = new Date(2023, 2, 25);
   downTimeEnd: Date = new Date(2023, 2, 26);
-  displayNotification: boolean = true;
+  displayNotification: boolean = false;
 }

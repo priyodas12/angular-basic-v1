@@ -9,6 +9,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HeadersComponent } from './headers/headers.component';
 import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SearchComponent } from './search/search.component';
     HeadersComponent,
     NotificationComponent,
     SearchComponent,
+    ProductsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

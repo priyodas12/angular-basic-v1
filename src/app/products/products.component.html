@@ -2,8 +2,9 @@
   <!-- <div *ngFor="let num of numbers">
     <p>Number: {{num *10}}</p>
   </div> -->
-  <div *ngFor="let p of productList">
+  <div *ngFor="let p of productList; let i=index">
     <div class="image-container">
+      <p>{{i}}</p>
       <p class="txt1">ProductId: {{p.productId}}</p>
       <p class="txt2">ProductName: {{p.productName}}</p>
       <p class="txt3">ProductCode: {{p.productCode}}</p>

@@ -1,0 +1,50 @@
+.image-container {
+  display: grid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-style: solid;
+  margin: 5px;
+}
+
+.txt1 {
+  padding-left: 5px;
+  font-size: large;
+  margin: 3px;
+  color: black;
+}
+
+.txt2 {
+  padding-left: 5px;
+  font-size: medium;
+  margin: 3px;
+  color: rgb(255, 153, 0);
+}
+
+.txt3 {
+  padding-left: 5px;
+  font-size: medium;
+  margin: 3px;
+  color: rgb(238, 47, 111);
+}
+
+.txt4 {
+  padding-left: 5px;
+  font-size: medium;
+  margin: 3px;
+  color: rgb(9, 255, 0);
+}
+
+.txt5 {
+  padding-left: 5px;
+  font-size: medium;
+  font-display: initial;
+  margin: 3px;
+  color: rgb(255, 98, 8);
+}
+
+.txt6 {
+  padding-left: 5px;
+  font-size: medium;
+  margin: 3px;
+  color: rgb(34, 11, 248);
+}

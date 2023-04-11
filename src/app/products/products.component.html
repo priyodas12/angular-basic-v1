@@ -1,3 +1,15 @@
-<div *ngFor="let item of list">
-  <p>{{item}}</p>
+<div>
+  <!-- <div *ngFor="let num of numbers">
+    <p>Number: {{num *10}}</p>
+  </div> -->
+  <div *ngFor="let p of productList">
+    <div class="image-container">
+      <p class="txt1">ProductId: {{p.productId}}</p>
+      <p class="txt2">ProductName: {{p.productName}}</p>
+      <p class="txt3">ProductCode: {{p.productCode}}</p>
+      <p class="txt4">ReleaseDate: {{p.releaseDate}}</p>
+      <p class="txt5">Price: {{p.price}}</p>
+      <p class="txt6">Rating: {{p.thumbRating}}</p>
+    </div>
+  </div>
 </div>

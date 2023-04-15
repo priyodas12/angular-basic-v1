@@ -2,5 +2,5 @@
   <!-- <input class="input-bar" type="text" (input)="submitSearchHandler($event)" /> -->
   <input class="input-bar" type="text" [(ngModel)]="searchString" />
   <button class="search-bar">Search Products</button>
-  <p>{{searchString}}</p>
+  <span *ngIf="searchString!=''">You Searched for product : {{searchString}}</span>
 </div>

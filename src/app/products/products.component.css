@@ -16,21 +16,21 @@
 .txt2 {
   padding-left: 5px;
   font-size: medium;
-  margin: 3px 100px;
+  margin: 3px 50px;
   color: rgb(255, 153, 0);
 }
 
 .txt3 {
   padding-left: 5px;
   font-size: medium;
-  margin: 3px 150px;
-  color: rgb(238, 47, 111);
+  margin: 3px 50px;
+  color: rgb(126, 45, 72);
 }
 
 .txt4 {
   padding-left: 5px;
   font-size: medium;
-  margin: 3px 200px;
+  margin: 3px 50px;
   color: rgb(9, 255, 0);
 }
 
@@ -38,13 +38,30 @@
   padding-left: 5px;
   font-size: medium;
   font-display: initial;
-  margin: 3px 250px;
-  color: rgb(255, 98, 8);
+  margin: 3px 50px;
+  color: rgb(172, 128, 10);
 }
 
 .txt6 {
   padding-left: 5px;
   font-size: medium;
-  margin: 3px 300px;
+  margin: 3px 50px;
   color: rgb(34, 11, 248);
+}
+
+.txt7 {
+  padding-left: 5px;
+  font-size: medium;
+  margin: 3px 50px;
+  color: rgb(248, 11, 11);
+}
+
+.green {
+  background-color: rgb(54, 228, 92);
+  margin: 3px 20px;
+}
+
+.grey {
+  background-color: rgb(235, 240, 236);
+  margin: 3px 20px;
 }

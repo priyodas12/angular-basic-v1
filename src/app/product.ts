@@ -7,4 +7,6 @@ export interface Product {
   description: string;
   thumbRating: number;
   imageUrl: string;
+  isAvl: boolean;
+  productDetailsIndicator: boolean;
 }

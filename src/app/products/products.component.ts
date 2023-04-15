@@ -10,6 +10,11 @@ import { Product } from '../product';
 export class ProductsComponent {
   numbers: number[] = [1, 3, 5];
 
+  showProductDetails(product: Product) {
+    product.productDetailsIndicator = !product.productDetailsIndicator;
+    console.log(product.productDetailsIndicator, product.productId);
+  }
+
   productList: Product[] = [
     {
       productId: 101,
@@ -20,6 +25,8 @@ export class ProductsComponent {
       description: 'sofa cum bed',
       thumbRating: 4.3,
       imageUrl: '/sofa/101',
+      isAvl: true,
+      productDetailsIndicator: false,
     },
     {
       productId: 103,
@@ -30,6 +37,8 @@ export class ProductsComponent {
       description: 'sofa cum bed type 3',
       thumbRating: 4.1,
       imageUrl: '/sofa/103',
+      isAvl: false,
+      productDetailsIndicator: false,
     },
     {
       productId: 105,
@@ -40,6 +49,8 @@ export class ProductsComponent {
       description: 'sofa cum bed type 3',
       thumbRating: 4.4,
       imageUrl: '/sofa/105',
+      isAvl: true,
+      productDetailsIndicator: false,
     },
   ];
 }

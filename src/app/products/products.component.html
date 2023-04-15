@@ -2,15 +2,26 @@
   <!-- <div *ngFor="let num of numbers">
     <p>Number: {{num *10}}</p>
   </div> -->
-  <div *ngFor="let p of productList; let i=index">
+  <div *ngFor="let product of productList; let i=index">
     <div class="image-container">
       <p>{{i}}</p>
-      <p class="txt1">ProductId: {{p.productId}}</p>
-      <p class="txt2">ProductName: {{p.productName}}</p>
-      <p class="txt3">ProductCode: {{p.productCode}}</p>
-      <p class="txt4">ReleaseDate: {{p.releaseDate}}</p>
-      <p class="txt5">Price: {{p.price}}</p>
-      <p class="txt6">Rating: {{p.thumbRating}}</p>
+      <p class="txt1">ProductId: {{product.productId}}</p>
+      <p class="txt2">ProductName: {{product.productName}}</p>
+      <div *ngIf="product.productDetailsIndicator==true">
+        <p class="txt3">productCode: {{product.productCode}}</p>
+        <p class="txt4">releaseDate: {{product.releaseDate}}</p>
+        <p class="txt5">price: {{product.price}}</p>
+        <p class="txt6">thumbRating: {{product.thumbRating}}</p>
+        <p class="txt3">imageUrl: {{product.imageUrl}}</p>
+      </div>
+      <p *ngIf="!product.isAvl" class="txt7">Status: Out of Stock</p>
+    </div>
+    <div>
+      <button class="green" (click)="showProductDetails(product)">ShowDetails</button>
+      <button class="green" *ngIf="product.isAvl==true; else notifyMe">Buy Now</button>
+      <ng-template #notifyMe>
+        <button class="grey">Notify Me</button>
+      </ng-template>
     </div>
   </div>
 </div>

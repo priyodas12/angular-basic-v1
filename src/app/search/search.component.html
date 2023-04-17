@@ -1,4 +1,4 @@
-<div class="search">
+<div class="search" [ngClass]="{changedBackground: searchString!=''}">
   <!-- <input class="input-bar" type="text" (input)="submitSearchHandler($event)" /> -->
   <input class="input-bar" type="text" [(ngModel)]="searchString" />
   <button class="search-bar">Search Products</button>
